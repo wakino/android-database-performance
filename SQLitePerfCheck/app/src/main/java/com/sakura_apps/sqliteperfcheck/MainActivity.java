@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 			DbOpener opener = new DbOpener(getApplicationContext());
 			db = opener.getWritableDatabase();
 			t2 = System.nanoTime();
-			result.loadTimeMsec = (t2 - t1);
+			result.loadTimeMsec = (t2 - t1) / 1000 / 1000;
 
 			count = TestData.getCount(db);
 			Log.i(TAG, String.format(Locale.US, "count:%d", count));
