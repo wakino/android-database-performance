@@ -1,9 +1,13 @@
-# ObjectBox performance test on android
+# Performance evaluation of Mmobile databases for Android
 
-This program evaluates the performance of [ObjectBox](https://objectbox.io/) on Android.
+Evaluates performance of following database on Android
+- [ObjectBox](https://objectbox.io/)
+- [Realm](https://realm.io)
+- [SQLite](https://www.sqlite.org/index.html)
+
 It only evaluates __select time__, Insert and update, delete time are not our scope.
 
-Test data is following
+Test data is following (example:ObjectBox)
 ```java
 @Entity
 class TestData {
