@@ -1,4 +1,4 @@
-# Performance evaluation of Mmobile databases for Android
+# Performance evaluation of mobile databases for Android
 
 Evaluates performance of following database on Android
 - [ObjectBox](https://objectbox.io/)
@@ -24,7 +24,7 @@ class TestData {
 ```
 
 Once you open Application, it creates 10000 records and end.
-Next open, it evaluates select-time at first data and at 5K, 10K and then display it on the application view.
+Next open, it evaluates select-time of the data at head and #5K, #10K and then display it on the application view.
 Abrreviations on this view are following.
 - NN: Normal Number(Not indexed)
 - IN: Indexed Number
